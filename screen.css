@@ -14,6 +14,14 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /* styles */
 
+.left {
+
+  float: left;
+  width: 5em;
+  background-color: #000000;
+
+}
+
 html {
 
   background: #000
@@ -22,19 +30,39 @@ html {
 
 body {
 
-  background-image: url('background.jpg'); */
   font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+  /* font-size: 75%; */
   color: #FFFFFF
 
 }
 
-h1 {
+html>body {
+
+  /* font-size: 12px; */
+
+}
+
+h {
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 
 }
 
+h1 {
+
+  font-size: 3em;
+
+}
+
+h2 {
+
+  font-size: 2em;
+
+}
+
 main {
+
+  /* background-image: url('background.jpg'); */
 
 }
 
@@ -44,6 +72,8 @@ header {
 
 nav {
 
+  /* color: #FFFFFF; *?/
+
 }
 
 section {
@@ -52,7 +82,11 @@ section {
 
 article {
 
-  background-color: red;
+  /* background-color: red; */
+  /* padding-top: 50em; */
+  /* padding-right: 10em; */
+  /* padding-bottom: 50em; */
+  /* padding-left: 10em; */
 
 }
 
@@ -61,6 +95,22 @@ ul {
 }
 
 li {
+
+}
+
+p {
+
+  line-height 2.5em;
+  font-size: sem;
+	margin-top: sem;
+	margin-bottom: 3em;
+
+}
+
+a {
+
+  color: #FFFFFF
+  text-decoration: none;
 
 }
 
