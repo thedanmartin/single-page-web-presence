@@ -17,7 +17,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 .left {
 
   float: left;
-  width: 5em;
+  width: 7em;
   background-color: #000000;
 
 }
@@ -36,26 +36,16 @@ body {
 
 }
 
-html>body {
-
-  /* font-size: 12px; */
-
-}
-
-h {
-
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-
-}
-
 h1 {
 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 3em;
 
 }
 
 h2 {
 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 2em;
 
 }
@@ -68,52 +58,64 @@ main {
 
 header {
 
+  padding-top: 1.5em;
+  padding-left: 1em;
+  padding-bottom: 1.5em;
+
 }
 
 nav {
 
-  /* color: #FFFFFF; *?/
-
-}
-
-section {
+  /* color: #FFFFFF; */
 
 }
 
 article {
 
-  /* background-color: red; */
   /* padding-top: 50em; */
-  /* padding-right: 10em; */
+  /* padding-right: 12em; */
   /* padding-bottom: 50em; */
   /* padding-left: 10em; */
-
-}
-
-ul {
-
-}
-
-li {
 
 }
 
 p {
 
   line-height 2.5em;
-  font-size: sem;
-	margin-top: sem;
+  font-size: 1em;
+	margin-top: 1em;
 	margin-bottom: 3em;
 
 }
 
-a {
+a:link {
 
-  color: #FFFFFF
-  text-decoration: none;
+  text-decoration: underline;
+
+}
+
+a:visited {
+
+  text-decoration: underline;
+  color: #E6E6E6; /*light grey*/
+
+}
+
+a:hover {
+
+  color: #FFFFFF;
+
+}
+
+a:active {
+
+  text-decoration: underline;
+  color: #A5EAF4 /*light blue*/
 
 }
 
 footer {
+
+  float: bottom;
 
 }
