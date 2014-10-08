@@ -14,14 +14,6 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /* styles */
 
-.left {
-
-  float: left;
-  width: 7em;
-  background-color: #000000;
-
-}
-
 html {
 
   background: #000
@@ -33,6 +25,15 @@ body {
   font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
   /* font-size: 75%; */
   color: #FFFFFF
+
+}
+
+.backgroundimage {
+  height: 100%;
+  background-image: url('background.jpg');
+  background-size: cover;
+  /*border: 2px solid darkgray;*/
+  /*color: #000; text-shadow: 1px 1px 0 #fff;*/
 
 }
 
@@ -114,8 +115,14 @@ a:active {
 
 }
 
-footer {
+#footer {
 
-  float: bottom;
+  width: 100%;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: red;
+  font-style: italic;
 
 }
