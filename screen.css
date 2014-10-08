@@ -16,7 +16,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 html {
 
-  background: #000
+  background: #000000;
 
 }
 
@@ -24,11 +24,12 @@ body {
 
   font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
   /* font-size: 75%; */
-  color: #FFFFFF
+  /* color: #FFFFFF */
 
 }
 
 .backgroundimage {
+  width: 100%;
   height: 100%;
   background-image: url('background.jpg');
   background-size: cover;
@@ -37,10 +38,17 @@ body {
 
 }
 
+img {
+
+  padding-top: 2em;
+
+}
+
 h1 {
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 3em;
+  color: #FFFFFF;
 
 }
 
@@ -48,35 +56,25 @@ h2 {
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 2em;
-
-}
-
-main {
-
-  /* background-image: url('background.jpg'); */
+  color: #FFFFFF;
 
 }
 
 header {
 
   padding-top: 1.5em;
-  padding-left: 1em;
+  padding-left: 8em;
   padding-bottom: 1.5em;
 
 }
 
-nav {
-
-  /* color: #FFFFFF; */
-
-}
 
 article {
 
-  /* padding-top: 50em; */
-  /* padding-right: 12em; */
-  /* padding-bottom: 50em; */
-  /* padding-left: 10em; */
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 14em;
+  padding-right: 2em;
 
 }
 
@@ -86,24 +84,27 @@ p {
   font-size: 1em;
 	margin-top: 1em;
 	margin-bottom: 3em;
+	color: #FFFFFF;
 
 }
 
 a:link {
 
-  text-decoration: underline;
+  text-decoration: none;
+  color: #E6E6E6; /*light grey */
 
 }
 
 a:visited {
 
-  text-decoration: underline;
-  color: #E6E6E6; /*light grey*/
+  text-decoration: none;
+  color: #CCE6FF; /*light blue*/
 
 }
 
 a:hover {
 
+  text-decoration: underline;
   color: #FFFFFF;
 
 }
@@ -111,18 +112,19 @@ a:hover {
 a:active {
 
   text-decoration: underline;
-  color: #A5EAF4 /*light blue*/
+  color: #66FF99; /*light green*/
 
 }
 
 #footer {
 
+  font-size: .8em;
   width: 100%;
   height: 2em;
-  position: absolute;
   bottom: 0;
   left: 0;
-  background: red;
+  background: #E6E6E6; /* light grey */
   font-style: italic;
+  color: #000000;
 
 }
